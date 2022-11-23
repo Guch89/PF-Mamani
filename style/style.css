@@ -1,0 +1,170 @@
+.cnav{
+    background: rgb(255,249,234);
+}
+
+.navf, .navf1{
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.input:active{
+    background-color: green;
+}
+
+.formatobtn:hover{
+background-color: lightgreen;
+border-color: black;
+font-weight: bold;
+}
+
+.imagenmain{
+    width: 100%;
+    opacity: 0.50;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.centrado{
+    position: absolute;
+    width: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(16, 19, 17);
+    font-family: 'Francois One', sans-serif;
+}
+
+@media screen and (max-width:600px) {
+    .centrado p{
+        display: none;
+    }
+}
+.section2, .p2, .fuentenav, .div41{
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.colorbtn{
+    background-color: lightgreen;
+    border-color: black;
+}
+
+.colorbtn:hover{
+    background-color: green;
+}
+
+.section2 h2, .div4 h2, .div41 h5, .div6 h2{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.img2, .imagens5{
+    margin-top: 30px;
+}
+
+.div2, .div2c{
+    margin: 10px;
+}
+
+.section21, .section41{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
+}
+
+.section61{
+    overflow: hidden;
+}
+
+.divsec3, .divf{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.divf{
+padding-top: 20px;
+}
+
+.s3h2{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.s3p3, .btns3{
+    font-size: 18px;
+}
+
+.btns3{
+    border-radius: 30px;
+}
+
+.divs3{
+    text-align: center;
+}
+
+.div4, .div6{
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.prueba{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.footer{
+    font-family: 'Didact Gothic', sans-serif;
+    margin-left: 5%;
+    font-size: 60px;
+}
+
+.footer h2{
+    font-weight: bold;
+}
+
+.imgf{
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.iconosm{
+    display: flex;
+    padding: 0;
+}
+
+.iconosm1{
+    margin-left: 5px;
+    list-style: none;
+}
+
+.iframe{
+    padding: 20px;
+    width: 95%;
+    height: 3%;
+}
+
+.divfr{
+    display: flex;
+    justify-content: center;
+}
+
+.img2c{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.probando{
+    overflow-x: hid;
+}

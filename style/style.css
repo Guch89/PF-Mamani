@@ -1,3 +1,7 @@
+.hidden{
+    overflow-x:hidden;
+}
+
 .cnav{
     background: rgb(255,249,234);
 }
